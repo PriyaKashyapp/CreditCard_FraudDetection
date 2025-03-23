@@ -27,7 +27,7 @@ Amount: Transaction amount
 Class: Binary variable indicating whether a transaction is fraudulent (1) or legitimate (0)
 Class Imbalance : Only ~0.17% of transactions are fraudulent.
 
-#### Methodology
+## Methodology
 
 The project follows these steps:
 
@@ -51,7 +51,7 @@ Evaluate models using metrics like Recall, Precision, F1-Score, and AUC-ROC.
 Visualize results using confusion matrix heatmaps.
 
 
-#### Features
+## Features
 
 Key Features Implemented in the Project:
 
