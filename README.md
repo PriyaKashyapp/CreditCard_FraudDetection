@@ -2,7 +2,7 @@
 
 This project focuses on detecting fraudulent credit card transactions using machine learning. The dataset contains anonymized credit card transactions, with features derived from PCA (Principal Component Analysis), transaction amounts, and timestamps. Given the highly imbalanced nature of the dataset, advanced techniques like SMOTE (Synthetic Minority Over-sampling Technique) and feature engineering are used to improve model performance.
 
-##Overview
+## Overview
 
 Fraud detection in credit card transactions is a critical challenge due to the rarity of fraudulent cases and the complexity of transaction data. This project demonstrates how to:
 
