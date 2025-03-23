@@ -43,8 +43,8 @@ Transform the Time feature into meaningful categories (Morning, Afternoon, Eveni
 Apply SMOTE to balance the training set by generating synthetic samples for the minority class.
  
 ### Model Training :
-Train machine learning models such as Random Forest and XGBoost.
-Perform hyperparameter tuning using Grid Search or Randomized Search.
+Train machine learning models such as Random Forest.
+Perform hyperparameter tuning using Grid Search.
 
 ## Evaluation :
 Evaluate models using metrics like Recall, Precision, F1-Score, and AUC-ROC.
