@@ -46,7 +46,7 @@ Apply SMOTE to balance the training set by generating synthetic samples for the 
 Train machine learning models such as Random Forest and XGBoost.
 Perform hyperparameter tuning using Grid Search or Randomized Search.
 
-### Evaluation :
+## Evaluation :
 Evaluate models using metrics like Recall, Precision, F1-Score, and AUC-ROC.
 Visualize results using confusion matrix heatmaps.
 
