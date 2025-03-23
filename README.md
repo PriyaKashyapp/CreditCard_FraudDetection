@@ -12,40 +12,46 @@ Train and evaluate machine learning models to detect fraud.
 Visualize results using confusion matrices and classification reports.
  The goal is to build a robust model that achieves high recall and precision for detecting fraudulent transactions while minimizing false positives.
 
-Dataset
+## Dataset
 
 The dataset used in this project is the Credit Card Fraud Detection Dataset , which is publicly available on Kaggle . Key characteristics of the dataset include:
 
-Rows : 284,807 transactions
-Features :
+### Rows : 284,807 transactions
+
+### Features :
 28 anonymized features derived from PCA (V1, V2, ..., V28)
 Time: Seconds elapsed between each transaction and the first transaction
 Amount: Transaction amount
- Target Variable :
+ 
+### Target Variable :
 Class: Binary variable indicating whether a transaction is fraudulent (1) or legitimate (0)
- Class Imbalance : Only ~0.17% of transactions are fraudulent.
+Class Imbalance : Only ~0.17% of transactions are fraudulent.
 
-Methodology
+#### Methodology
 
 The project follows these steps:
 
-Data Exploration :
+### Data Exploration :
 Analyze the distribution of features and target variable.
 Visualize class imbalance and feature correlations.
- Feature Engineering :
+
+### Feature Engineering :
 Normalize the Amount feature using StandardScaler.
 Transform the Time feature into meaningful categories (Morning, Afternoon, Evening, Night) and binary indicators (Is_Night).
- Handling Class Imbalance :
+ 
+### Handling Class Imbalance :
 Apply SMOTE to balance the training set by generating synthetic samples for the minority class.
- Model Training :
+ 
+### Model Training :
 Train machine learning models such as Random Forest and XGBoost.
 Perform hyperparameter tuning using Grid Search or Randomized Search.
- Evaluation :
+
+### Evaluation :
 Evaluate models using metrics like Recall, Precision, F1-Score, and AUC-ROC.
 Visualize results using confusion matrix heatmaps.
 
 
-Features
+#### Features
 
 Key Features Implemented in the Project:
 
